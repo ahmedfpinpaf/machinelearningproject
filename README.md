@@ -1,37 +1,26 @@
-Iris Classification API (Machine Learning + Flask + Docker)
+# ML_Internship_tasks
+Remote Machine Learning internship at YoungDev Interns
+My first ever machine learning internship
 
-This project demonstrates a complete deployment workflow for a Machine Learning model using:
+for the last expert task of the internship
+This project demonstrates a complete Machine Learning deployment workflow:
 
-scikit-learn for training
+✔ Train an ML model (Iris dataset)
 
-Flask for serving predictions
+✔ Serve the model using Flask
 
-Docker for containerization
+✔ Containerize with Docker
 
-cURL or frontend apps for testing
+✔ Push to Docker Hub
+
+✔ Deploy easily to the cloud (Render / Railway / AWS / Azure)
 
 Features
 
-Predicts Iris flower class (0, 1, or 2)
+Predicts Iris flower class using a pre-trained Logistic Regression model
 
-REST API endpoint: /predict
+REST API: /predict endpoint
 
-Lightweight and fast API
+Dockerized application for easy deployment
 
-Works locally and inside Docker containers
-
-Ready for deployment on Render, Railway, Azure, AWS, etc.
-
-Step 1: Install dependencies
-pip install -r requirements.txt
-
-Step 2: Start the API
-python app.py
-
-Running on http://127.0.0.1:5000/
-
-Using curl (Windows one-line command)
-curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d "{\"features\": [5.1, 3.5, 1.4, 0.2]}"
-
-License: This project is open-source. You may modify or extend it for learning or deployment practice.
-
+Lightweight & fast (Flask + joblib)
